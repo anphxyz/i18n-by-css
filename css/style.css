@@ -1,0 +1,26 @@
+:lang(en){
+  --username:'Username ';
+  --pasword: 'Password ';
+  --login: 'Login';
+  --lang:'Tiếng Việt'
+}
+
+:lang(vi){
+  --username:'Tên đăng nhập ';
+  --pasword: 'Mật khẩu ';
+  --login: 'Đăng nhập';
+  --lang:'English'
+}
+
+/*style to view*/
+#change_lang{margin:0 0 5vh 12%;height:25px;border-radius:5px;display:inline-block;color:#00f}
+.form-group{width:100%;padding:3px;display:inline-block}
+.form-group>label{width:12%;display:inline-block}
+.form-group>input{width:50%;display:inline-block;height:25px;border-radius:5px;box-shadow:none;border:1px solid #c1c1c1}
+.form-group>button{margin:0 12%;height:25px;border-radius:5px;display:inline-block}
+/*style to view*/
+
+#change_lang:after{  content:var(--lang)}
+[for='username']:after{  content:var(--username)}
+[for='password']:after{  content:var(--pasword)}
+[type="submit"]:after{  content:var(--login)}
