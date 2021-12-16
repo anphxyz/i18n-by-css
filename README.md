@@ -7,4 +7,4 @@
   2. Change `html lang` attribute to change language
 
 
-DEMO:   [i18n with pure CSS](http://jsbin.com/qamojam/2)
+DEMO:   [i18n with pure CSS](https://output.jsbin.com/hatomakoce)
