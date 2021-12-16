@@ -5,3 +5,6 @@
 ## IDEA
   1. Using new feature CSS custom properties (variables) + CSS Pseudo-elements `:before`, `:after`
   2. Change `html lang` attribute to change language
+
+
+DEMO:   [i18n with pure CSS](http://jsbin.com/qamojam/2)
